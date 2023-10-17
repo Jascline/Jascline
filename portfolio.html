@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshika's Portfolio</title>
+    <style>
+        @font-face {
+            font-family: 'SerifFont';
+            src: url('path/to/seriffont.woff2') format('woff2'),
+                url('path/to/seriffont.woff') format('woff');
+        }
+
+        body {
+            font-family: 'SerifFont', serif;
+            background-color: black;
+            color: #333;
+            margin: 0;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .dots-container {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            display: flex;
+        }
+
+        .dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .red-dot {
+            background-color: red;
+        }
+
+        .yellow-dot {
+            background-color: yellow;
+        }
+
+        .green-dot {
+            background-color: green;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border: 4px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .ribbon {
+            background-color: #ffc0cb;
+            color: #fff;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px 0;
+            border-radius: 5px;
+            margin-top: 10px;
+            -webkit-text-stroke: 2px black;
+            text-stroke: 2px black;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffc0cb;
+            padding: 5px 10px;
+            background-color: #333;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #ff4499;
+        }
+
+        .skills-list {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        #about {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        #contact {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        #skills {
+            background-color: #ffc0cb;
+            border: 4px solid #333;
+            padding: 20px;
+        }
+
+        .skills-list {
+            color: #333;
+        }
+
+        .skills-list li {
+            margin-bottom: 10px;
+        }
+
+        .big-box {
+            background-color: #ffc0cb;
+            color: #fff;
+            padding: 20px;
+            border: 4px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="dots-container">
+        <div class="dot red-dot"></div>
+        <div class="dot yellow-dot"></div>
+        <div class="dot green-dot"></div>
+    </div>
+
+    <div class="container">
+        <div class="ribbon">Keshika's Portfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="header" id="home">
+            <div class="ribbon" style="-webkit-text-stroke: 2px black; text-stroke: 2px black;">Welcome to Keshika's Portfolio</div>
+        </div>
+        <div id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate and dedicated individual with a strong background in computer science. I love exploring new technologies and solving complex problems. I am a passionate and dedicated individual with a strong background in computer science. I love exploring new technologies and solving complex problems.
+            </p>
+            <p>
+                Name: Keshika<br>
+                University: New Era University College<br>
+                Course: Diploma in Computer Science<br>
+                Lives in Selangor<br>
+            </p>
+        </div>
+        <div id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>Forensic Skill</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Web Development</li>
+                <li>Data Analysis</li>
+                <li>Problem Solving</li>
+                <li>Machine Learning</li>
+            </ul>
+        </div>
+        
+        <div id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: keshikababy@gmail.com</p>
+            <p>Instagram: Jascline24</p>
+            <p>Phone Number: 0168194061</p>
+            <p>You can also find me on LinkedIn and Twitter.</p>
+        </div>
+    </div>
+</body>
+</html>
